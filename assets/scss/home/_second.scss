@@ -1,0 +1,65 @@
+.second-section{
+    background-color: #f9fcf8;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px !important;
+    padding: 0 60px;
+}
+.second-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-section .container .left-side-section h3{
+    margin-bottom: 30px;
+}
+.second-section .container .right-side-section{
+    text-align: end;
+}
+.second-section .container .right-side-section img{
+    width: 75%;
+}
+
+// Media Queries Start
+@media (max-width: 575px) {
+    .second-section{
+        padding: 0 20px !important;
+    }
+    .second-section .container{
+        overflow: hidden;
+    }
+    .second-section .container .left-side-section h3{
+        font-size: 20px;
+    }
+    .second-section .container .right-side-section img{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .second-section{
+        padding: 0 40px !important;
+    }
+    .second-section .container .left-side-section h3{
+        font-size: 30px;
+    }
+    .second-section .container .right-side-section img{
+        width: 80%;
+    }
+}
+
+// Common Media Queries
+@media (max-width: 767px){
+    .second-section .container{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .second-section .container .left-side-section h3{
+        margin-bottom: 10px;
+    }
+    .second-section .container .right-side-section{
+        text-align: center;
+        margin-top: 50px;
+    }
+}

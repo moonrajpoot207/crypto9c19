@@ -1,0 +1,28 @@
+header{
+    margin-top: 40px !important;
+}
+header .container .top-div p{
+    font-size: 16px;
+    font-family: widelight;
+}
+header .container .bottom-div{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .bottom-div .icon svg{
+    fill: var(--text);
+}
+header .container .bottom-div .content h5{
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+// Media Queries
+@media (max-width: 575px){
+    header .container .top-div p{
+        font-size: 14px;
+    }
+}

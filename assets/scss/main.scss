@@ -1,0 +1,148 @@
+@import "index";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: wide;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-Wide.otf);
+  }
+@font-face {
+    font-family: wideBlack;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-WideBlack.otf);
+  }
+@font-face {
+    font-family: wideBold;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-WideBold.otf);
+  }
+@font-face {
+    font-family: wideLight;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-WideLight.otf);
+  }
+@font-face {
+    font-family: wideMedium;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-WideMedium.otf);
+  }
+@font-face {
+    font-family: wideSemiBold;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-WideSemibold.otf);
+  }
+@font-face {
+    font-family: wideSuper;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-WideSuper.otf);
+  }
+@font-face {
+    font-family: wideThin;
+    src: url(../fonts/ObviouslyWide/ObviouslyDemo-WideThin.otf);
+  }
+
+body {
+    --text: #1a5632;
+    --text-primary: #f9fcf8;
+    --button: #294428;
+    --gray: #707070;
+    --background: #f9fcf8;
+    font-family: wide;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    font-family: wideMedium;
+    color: var(--text);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+    font-family: wide;
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text);
+    font-weight: normal;
+    font-family: wide;
+}
+
+li {
+    list-style: none;
+}
+.btn-1{
+    padding: 11px 40px;
+    border: 1px solid #f9fcf8;
+    color: var(--text-primary);
+    background-color: var(--button);
+    font-size: 11px;
+    font-family: wideLight;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid var(--button);
+        background-color: var(--text-primary);
+        color: var(--text);
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        font-family: wideLight;
+    }
+}
+
+// ========== Nav CSS Start ========== //
+nav{
+    padding: 11px 23px;
+    margin-bottom: 20px;
+}
+// ========== Nav CSS End ========== //
+
+// ========== Header CSS Start ========== //
+header{
+    margin: 0px 60px 80px;
+}
+// ========== Header CSS End ========== //
+
+// ========== Section CSS End ========== //
+section{
+    margin: 0px 60px 80px;
+}
+// ========== Section CSS End ========== //
